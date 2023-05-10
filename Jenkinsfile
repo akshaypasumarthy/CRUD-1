@@ -1,5 +1,9 @@
 pipeline{
     agent any
+    tools {
+        // Specify the Git executable
+        git 'Git'
+    }
 
 
 
